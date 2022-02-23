@@ -23,7 +23,8 @@ const Home = () => {
     .then((data) => {
       setUser(data[0]);
   })
-}, [userInfo]);
+  console.log('here')
+}, [userInfo.googleId]);
 
 useEffect(() => {
   scrollRef.current.scrollTo(0, 0);

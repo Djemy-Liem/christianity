@@ -1,11 +1,11 @@
 // rafce
 import React from 'react';
-import * as Loader from 'react-loader-spinner';
+import {CirclesWithBar} from 'react-loader-spinner';
 
 const Spinner = ({ message }) => {
 	return (
 		<div className="flex flex-col justify-center items-center w-full h-full">
-			<Loader
+			<CirclesWithBar
 				type="Grid"
 				color="#000000"
 				height={50}
